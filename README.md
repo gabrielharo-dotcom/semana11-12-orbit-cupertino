@@ -1,10 +1,8 @@
 # Orbit Cupertino
 
-**Gabriel Haro · Aplicaciones Multiplataformas · Laboratorio 09**
+**Gabriel Haro · Aplicaciones Multiplataformas · Laboratorio de las semanas 11–12**
 
-Copia independiente del catálogo Orbit, adaptada a los controles de estilo iOS de Flutter. Mantiene las cinco pantallas del laboratorio y los mismos datos de muestra. El ingreso es simulado; no hay backend, autenticación real ni almacenamiento.
-
-**[Informe Word con capturas y enlace del repositorio](docs/Laboratorio09-Cupertino-Gabriel-Haro.docx)**
+Orbit es un catálogo de productos desarrollado en Dart y Flutter para practicar los widgets Cupertino. Incluye cinco pantallas: acceso, menú, catálogo, registro y perfil. El ingreso es simulado y los datos son de muestra; no hay backend, autenticación real ni almacenamiento.
 
 ![Vista general de las cinco pantallas](docs/capturas/vista-general.png)
 
@@ -19,9 +17,9 @@ flutter run -d chrome
 
 Para Android, elige un dispositivo de `flutter devices` y cambia `chrome` por su identificador. Cupertino es una biblioteca de Flutter: en esta entrega su interfaz se puede demostrar en web, aunque imite los controles de iOS.
 
-## Qué cambió respecto al original
+## Widgets y estructura del laboratorio
 
-| Parte | Implementación en la copia |
+| Parte | Implementación |
 | --- | --- |
 | Aplicación y tema | `CupertinoApp`, mapa de rutas y `CupertinoThemeData`. |
 | Estructura y regreso | `CupertinoPageScaffold`, `CupertinoNavigationBar` y `CupertinoNavigationBarBackButton`. |

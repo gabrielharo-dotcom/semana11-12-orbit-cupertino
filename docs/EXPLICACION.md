@@ -1,8 +1,8 @@
 # Desarrollo del laboratorio Cupertino
 
-**Autor: Gabriel Haro** · Aplicaciones Multiplataformas · Laboratorio 09
+**Autor: Gabriel Haro** · Aplicaciones Multiplataformas · Semanas 11–12
 
-El código de la aplicación está escrito en Dart. Esta copia conserva el ejercicio previo y cambia su interfaz a Cupertino. Los cuatro productos y el perfil se leen de datos locales.
+El laboratorio desarrolla un catálogo de productos en Dart y Flutter. Su objetivo es practicar la navegación, el tema global y los controles Cupertino. Los cuatro productos y el perfil se leen de datos locales.
 
 - **Rutas.** `app.dart` asocia nombres con pantallas. `pushReplacementNamed` sustituye el acceso por el panel; `pushNamed` permite abrir una vista y volver. Al cerrar sesión, `pushNamedAndRemoveUntil` limpia el historial para que el botón Atrás no vuelva al panel.
 - **Componentes compartidos.** `Pagina` aplica la estructura común de Cupertino y limita el ancho en escritorio. `TarjetaOrbit` construye una superficie redondeada sin usar el widget Material `Card`. `BotonPrincipal` reutiliza un botón relleno de Cupertino.
